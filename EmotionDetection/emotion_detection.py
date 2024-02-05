@@ -14,6 +14,7 @@ def emotion_detector(text_to_analyse):
             "sadness": None,
             "dominant_emotion": None
         }
+        #comment
 
     formatted_output = response.text
     response_dict = json.loads(formatted_output)
